@@ -1,0 +1,6 @@
+
+rajma@DESKTOP-TTQ99K5 MINGW64 ~/eclipse-workspace/PJP2.0/Week2/MavenAssignment (master)
+$ bash Task3.sh
+Enter the name of a file
+log.txt
+Log saved to file

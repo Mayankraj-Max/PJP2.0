@@ -1,0 +1,31 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:help (default-cli) @ standalone-pom ---
+[INFO] Maven Install Plugin 2.4
+  Copies the project artifacts to the user's local repository.
+
+This plugin has 3 goals:
+
+install:help
+  Display help information on maven-install-plugin.
+  Call mvn install:help -Ddetail=true -Dgoal=<goal-name> to display parameter
+  details.
+
+install:install
+  Installs the project's main artifact, and any other artifacts attached by
+  other plugins in the lifecycle, to the local repository.
+
+install:install-file
+  Installs a file in the local repository.
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.004 s
+[INFO] Finished at: 2020-08-26T15:23:18+05:30
+[INFO] ------------------------------------------------------------------------

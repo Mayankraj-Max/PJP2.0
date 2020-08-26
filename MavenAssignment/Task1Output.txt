@@ -1,0 +1,48 @@
+
+rajma@DESKTOP-TTQ99K5 MINGW64 ~/eclipse-workspace/PJP2.0/Week2/MavenAssignment (master)
+$ bash Task1.sh
+Enter the plugin name :
+install
+Enter the the plugin groupid
+apache.maven.plugins
+Enter the version
+2.5.2
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] --- maven-help-plugin:3.2.0:describe (default-cli) @ standalone-pom ---
+[INFO] org.apache.maven.plugins:maven-install-plugin:2.5.2
+
+Name: Apache Maven Install Plugin
+Description: Copies the project artifacts to the user's local repository.
+Group Id: org.apache.maven.plugins
+Artifact Id: maven-install-plugin
+Version: 2.5.2
+Goal Prefix: install
+
+This plugin has 3 goals:
+
+install:help
+  Description: Display help information on maven-install-plugin.
+    Call mvn install:help -Ddetail=true -Dgoal=<goal-name> to display parameter
+    details.
+
+install:install
+  Description: Installs the project's main artifact, and any other artifacts
+    attached by other plugins in the lifecycle, to the local repository.
+
+install:install-file
+  Description: Installs a file in the local repository.
+
+For more information, run 'mvn help:describe [...] -Ddetail'
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.100 s
+[INFO] Finished at: 2020-08-26T15:11:14+05:30
+[INFO] ------------------------------------------------------------------------
+
